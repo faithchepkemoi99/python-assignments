@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists,images, tables, & forms</title>
+        </head>
+        <body>
+            <h1>HTML Lists</h1>
+            <h3>Ordered lists</h3>
+            <ol type="i" start="1">
+                <li>software engineering</li>
+                <li>web dev</li>
+                <li>python</li>
+                <li>databases</li>
+                <li>startup building</li>
+            </ol>
+            <h3>un ordered lists</h3>
+            <ul type="square">
+                <li>mr. joe</li>
+                <li>ms joy</li>
+                <li>mr eddy</li>
+                <li>ms nelly</li>
+            </ul>
+            <h3>definition lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>hyper text markup language</dd>
+                <dt>SQL</dt>
+                <dd>structured query language</dd>
+            </dl>
+            <h1>HTML IMAGES</h1>
+            <img src="pngwing.com" alt="image of multi-colored hands" width="250" height="450">
+            <h1>Audio</h1>
+            <audio controls>
+                <source src="Ada Ehi - Congratulations ft Buchi _ The Official Video(M4A_128K)" type="audio/mp4">
+            </audio>
+            <h1>HTML TABLES</h1>
+            <table border="1">
+                <caption>people infor</caption>
+                <thead>
+                    <tr>
+                        <th colspan="">name</th>
+                        <th>address</th>
+                        <th>country</th>
+                        <th>mobile</th>
+                        <th>email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>Faith</td>
+                       <td>8476,Eldoret</td> 
+                       <td>Kenya</td> 
+                       <th>0701254888</th>
+                       <th>barafay@gmail.com</th>
+                    </tr>
+                    <tr>
+                        <td>Manyara</td>
+                        <td>1564,Kigali</td>  
+                        <td>Rwanda</td> 
+                        <th>0701254888</th>
+                        <th>bara123@gmail.com</th>
+                    </tr>
+                    <tr>
+                        <td>Ann</td> 
+                        <td>1894,Queens</td> 
+                        <td>Australia</td> 
+                        <th>0701254965</th>
+                        <td>ann@gmail.com</td>    
+                    </tr>
+                    <tr>
+                        <td>cynthia</td> 
+                        <td>1214,Melborne</td> 
+                        <td>Australia</td> 
+                        <th>0725454965</th>
+                        <td>cynthy@gmail.com</td>    
+                    </tr>
+                    <tr>
+                        <td>Collins</td> 
+                        <td>8741,Adelaide</td> 
+                        <td>Australia</td> 
+                        <th>0701254335</th>
+                        <td>collins@gmail.com</td>    
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="">name</th>
+                        <th>address</th>
+                        <th>country</th>
+                        <th>mobile</th>
+                        <th>email</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <h1>HTML FORMS</h1>
+            <form action="" method="">
+                <label for="name">Name:</label>
+                <input type="text" id="student_name" name="student_name" required>
+                <br><br>
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="genger" name="gender" value="female"> Female
+                <input type="radio" id="genger" name="gender" value="male"> Male
+                <br><br>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="music"> Music
+                <input type="checkbox" name="hobbies" value="art"> Art
+                <input type="checkbox" name="hobbies" value="travel"> Travel
+                <br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option>--select Country--</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="SA">SA</option>
+                    <option value="Rwanda">Rwanda</option>
+                </select>
+                <br><br>
+                <label for="description">Describe yourself</label>
+                <textarea id="description" name="description"></textarea>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="cancel">
+            </form>
+        </body>
+    </html>
